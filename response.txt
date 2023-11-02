@@ -1,0 +1,58 @@
+array:1 [▼ // app/Services/UPSService.php:225
+  "ShipmentResponse" => array:2 [▼
+    "Response" => array:2 [▼
+      "ResponseStatus" => array:2 [▼
+        "Code" => "1"
+        "Description" => "Success"
+      ]
+      "TransactionReference" => array:1 [▼
+        "CustomerContext" => "testing"
+      ]
+    ]
+    "ShipmentResults" => array:5 [▼
+      "ShipmentCharges" => array:3 [▼
+        "TransportationCharges" => array:2 [▼
+          "CurrencyCode" => "USD"
+          "MonetaryValue" => "22.46"
+        ]
+        "ServiceOptionsCharges" => array:2 [▼
+          "CurrencyCode" => "USD"
+          "MonetaryValue" => "0.00"
+        ]
+        "TotalCharges" => array:2 [▼
+          "CurrencyCode" => "USD"
+          "MonetaryValue" => "22.46"
+        ]
+      ]
+      "NegotiatedRateCharges" => array:1 [▼
+        "TotalCharge" => array:2 [▼
+          "CurrencyCode" => "USD"
+          "MonetaryValue" => "22.24"
+        ]
+      ]
+      "BillingWeight" => array:2 [▼
+        "UnitOfMeasurement" => array:2 [▼
+          "Code" => "LBS"
+          "Description" => "Pounds"
+        ]
+        "Weight" => "30.0"
+      ]
+      "ShipmentIdentificationNumber" => "1ZXXXXXXXXXXXXXXXX"
+      "PackageResults" => array:3 [▼
+        "TrackingNumber" => "1ZXXXXXXXXXXXXXXXX"
+        "ServiceOptionsCharges" => array:2 [▼
+          "CurrencyCode" => "USD"
+          "MonetaryValue" => "0.00"
+        ]
+        "ShippingLabel" => array:3 [▼
+          "ImageFormat" => array:2 [▼
+            "Code" => "GIF"
+            "Description" => "GIF"
+          ]
+          "GraphicImage" => "R0lGODlheAUgA/cAAAAAAAEBAQICAgMDAwQEBAUFBQYGBgcHBwgICAkJCQoKCgsLCwwMDA0NDQ4ODg8PDxAQEBERERISEhMTExQUFBUVFRYWFhcXFxgYGBkZGRoaGhsbGxwcHB0dHR4eHh8fHyAgICEhISIiIiMj ▶"
+          "HTMLImage" => "PCFET0NUWVBFIEhUTUwgUFVCTElDICItLy9JRVRGLy9EVEQgSFRNTCAzLjIvL0VOIj4KPGh0bWw+PGhlYWQ+PHRpdGxlPgpWaWV3L1ByaW50IExhYmVsPC90aXRsZT48bWV0YSBjaGFyc2V0PSJVVEYtOCI+PC9o ▶"
+        ]
+      ]
+    ]
+  ]
+]
